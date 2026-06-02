@@ -19,5 +19,11 @@ body {
 
 .colorGenerator{
     display: flex;
+    align-items: center;
     gap: 0.5rem;
+}
+
+.colorPicker{
+    width: 51px;
+    height: 54px;
 }
