@@ -8,6 +8,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 .app {
@@ -21,9 +22,38 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    padding: 16px 8px;
+    width: 550px;
+    border: solid 2px red;
 }
 
 .colorPicker{
     width: 51px;
-    height: 54px;
+    height: 42px;
+    border: solid 1px grey;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+select{
+    height: 42px;
+    width: 312px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button{
+    height: 42px;
+    width: 123px;
+    font-size: 12px;
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.colorPalettes{
+    border: solid 5px red;
+    height: 550px;
+    width: 550px;
 }

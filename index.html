@@ -4,10 +4,14 @@
         <meta charset="utf-8">
         <title>Color Scheme Generator</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="app">
-            <div class="colorGenerator">
+        <main>
+            <div class="app">
+                <div class="colorGenerator">
                 <input type="color" class="colorPicker"/>
                 <select name="colors" id="color-select">
                     <option value="Monochrome">Monochrome</option>
@@ -19,8 +23,27 @@
                     <option value="Triad">Triad</option>
                 </select>
                 <button>Get Color scheme</button>
+                </div>
+                <div class="colorPalettes">
+                    <div class="colorPalette"></div>
+                    <div class="colorPalette"></div>
+                    <div class="colorPalette"></div>
+                    <div class="colorPalette"></div>
+                    <div class="colorPalette"></div>
+                </div>
             </div>
-        </div>
+        </main>
+        <footer>
+            <div class="hex">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+
+        </footer>
+
         <script src="script.js"></script>
     </body>
 </html>
